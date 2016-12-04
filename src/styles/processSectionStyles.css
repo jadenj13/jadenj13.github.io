@@ -1,0 +1,19 @@
+.process-main {
+	height: 82vh;
+	background-color: #f4f4f4;
+}
+
+.process-main h2 {
+	margin: 0 auto;
+	text-align: center;
+	font-family: sans-serif;
+	font-size: 50px;
+	color: #000;
+	padding-top: 65px;
+}
+
+.process-main .underline {
+	width: 150px;
+	border: 1px solid #000;
+	margin: 30px auto;
+}
