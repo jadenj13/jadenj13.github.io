@@ -26,6 +26,14 @@ module.exports = {
 				test: /\.jpg/
   				, loader: 'url-loader?limit=8192'
 			}
+			, {
+				test: /\.jpeg/
+  				, loader: 'url-loader?limit=8192'
+			}
+			, {
+				test: /\.png/
+  				, loader: 'url-loader?limit=8192'
+			}
 		]
 	}
 	, resolve: {

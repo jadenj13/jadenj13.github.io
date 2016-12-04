@@ -3,7 +3,6 @@
 import React from 'react';
 
 import '../styles/landingSectionStyles.css';
-import '../styles/images/landing-section-bg.jpg';
 
 export default class LandingSection extends React.Component {
 	constructor (props) {
