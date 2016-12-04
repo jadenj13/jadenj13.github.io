@@ -1,0 +1,31 @@
+{
+  "name": "personal-website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jadenj13/personal-website.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jadenj13/personal-website/issues"
+  },
+  "homepage": "https://github.com/jadenj13/personal-website#readme",
+  "dependencies": {
+    "babel": "^6.5.2",
+    "babel-loader": "^6.2.8",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-react": "^6.16.0",
+    "file-loader": "^0.9.0",
+    "html-webpack-plugin": "^2.24.1",
+    "image-webpack-loader": "^3.0.0",
+    "react": "^15.4.1",
+    "react-dom": "^15.4.1",
+    "url-loader": "^0.5.7"
+  }
+}
