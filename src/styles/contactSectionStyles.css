@@ -10,7 +10,7 @@
 	padding-top: 75px;
 }
 
-.contact-main input {
+.contact-main-input {
 	display: block;
 	margin: 20px auto;
 	width: 40vw;
@@ -36,7 +36,7 @@
 	margin: 30px auto 50px auto;
 }
 
-.contact-main button {
+.send-btn {
 	display: block;
 	margin: 30px auto 0 auto;
 	height: 50px;
@@ -49,7 +49,7 @@
 	cursor: pointer;
 }
 
-.contact-main button:hover {
+.send-btn:hover {
 	background-color: #f4f4f4;
 }
 
