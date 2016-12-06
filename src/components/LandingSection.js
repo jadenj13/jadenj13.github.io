@@ -12,7 +12,7 @@ export default class LandingSection extends React.Component {
 	componentDidMount() {
 		setTimeout(function() {
 			$('.type').typed({
-				strings: ['Hi, I am Jaden Johnson. <br> I am a full-stack Javascript engineer.'],
+				strings: ['Hi, I am Jaden Johnson. <br> I am a full-stack Javascript developer.'],
 				typeSpeed: 50,
 				backDelay: 2000,
 			});
