@@ -1,5 +1,5 @@
 .process-main {
-	height: 1000px;
+	height: 730px;
 	background-color: #f4f4f4;
 	font-family: sans-serif;
 }
@@ -20,6 +20,7 @@
 }
 
 .process-step-container {
+	height: 450px;
 	width: 80%;
 	margin: 50px auto 0 auto;
 	display: flex;
@@ -31,7 +32,6 @@
 	width: 22vw;
 	min-width: 200px;
 	height: 400px;
-	float: left;
 }
 
 .process-container h4 {
@@ -41,7 +41,7 @@
 	font-size: 36px;
 }
 
-.icon {
+.process-main .icon {
 	border-radius: 50%;
 	margin: 0 auto;
 	width: 150px;

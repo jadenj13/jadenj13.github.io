@@ -1,0 +1,56 @@
+.contact-main {
+	height: 640px;
+	background-color: #f4f4f4;
+	font-family: sans-serif;
+	text-align: center;
+}
+
+.contact-main h3 {
+	font-size: 36px;
+	padding-top: 75px;
+}
+
+.contact-main input {
+	display: block;
+	margin: 20px auto;
+	width: 40vw;
+	min-width: 350px;
+	height: 30px;
+	font-size: 16px;
+	padding: 5px;
+	color: #808080;
+}
+
+.contact-main textarea {
+	width: 40vw;
+	min-width: 350px;
+	font-size: 16px;
+	padding: 5px;
+	height: 150px;
+	color: #808080;
+}
+
+.contact-underline {
+	width: 150px;
+	border: 1px solid #808080;
+	margin: 30px auto 50px auto;
+}
+
+.contact-main button {
+	display: block;
+	margin: 30px auto 0 auto;
+	height: 50px;
+	width: 90px;
+	font-size: 16px;
+	color: #808080;
+	border-radius: 15px;
+	border: 1px solid #808080;
+	background-color: #e4e4e4;
+	cursor: pointer;
+}
+
+.contact-main button:hover {
+	background-color: #f4f4f4;
+}
+
+
