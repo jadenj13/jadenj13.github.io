@@ -2,3 +2,30 @@
 	height: 150px;
 	background-color: #333;
 }
+
+.icon-container {
+	padding-top: 10px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	width: 200px;
+	margin: 0 auto;
+}
+
+.github-icon {
+	height: 75px;
+	width: 75px;
+	background-image: url('./images/github-icon.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	border-radius: 50%;
+}
+
+.linkedin-icon {
+	height: 75px;
+	width: 75px;
+	background-image: url('./images/linkedin-icon.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	border-radius: 50%;
+}
