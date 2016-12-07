@@ -6,7 +6,7 @@ import '../styles/navbarStyles.css';
 
 export default function(props) {
 	function handleClick(location) {
-		$('body').animate({scrollTop: location}, 800);
+		$('body, html').animate({scrollTop: location}, 800);
 	}
 
 	return(
