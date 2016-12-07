@@ -1,8 +1,9 @@
 .tools-main {
-	height: 1100px;
+	height: auto;
 	width: 100%;
 	color: #808080;
 	font-family: sans-serif;
+	padding: 65px 0 65px 0;
 }
 
 .tools-main h2 {
@@ -11,11 +12,10 @@
 	font-family: sans-serif;
 	font-size: 50px;
 	color: #808080;
-	padding-top: 65px;
 }
 
 .tools-container {
-	height: 450px;
+	height: auto;
 	width: 80%;
 	margin: 50px auto 0 auto;
 	display: flex;
@@ -27,7 +27,7 @@
 .tool-container {
 	width: 22vw;
 	min-width: 200px;
-	height: 400px;
+	height: auto;
 	margin: 25px;
 }
 
@@ -68,6 +68,16 @@
 }
 
 
+@media(max-width: 1070px) {
+	.tool-container {
+		width: 34vw;
+	}
+}
 
+@media(max-width: 800px) {
+	.tool-container {
+		width: 80%;
+	}
+}
 
 

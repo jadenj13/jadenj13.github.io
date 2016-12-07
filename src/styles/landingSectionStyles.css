@@ -31,3 +31,14 @@
   50% { opacity:0; }
   100% { opacity:1; }
 }
+
+
+@media(max-width: 400px) {
+	.type-container {
+		padding-top: 30vh;
+	}
+}
+
+
+
+
