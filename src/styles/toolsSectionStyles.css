@@ -74,7 +74,11 @@
 	}
 }
 
-@media(max-width: 800px) {
+@media(max-width: 840px) {
+	.tools-container {
+		width: 100%;
+	}
+
 	.tool-container {
 		width: 90%;
 	}
