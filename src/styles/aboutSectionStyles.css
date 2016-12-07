@@ -27,3 +27,11 @@ p {
 	text-align: center;
 	color: #808080;
 }
+
+
+@media(max-width: 500px) {
+	.about-main {
+		width: 90%;
+	}
+}
+
